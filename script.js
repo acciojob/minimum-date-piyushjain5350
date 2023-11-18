@@ -1,5 +1,12 @@
 function minDate(dates) {
   //write you code here
+	const copiedDates = [...dates];
+
+    // Sort the array in ascending order
+    copiedDates.sort();
+
+    // Return the first (minimum) date in the sorted array
+    return copiedDates[0];
 }
 
 // Do not change the code
